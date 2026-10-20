@@ -1,0 +1,14 @@
+{
+  "name": "mastra-libsql-vector-repro",
+  "description": "LibSQLVector.query() brute-force scan re-parses the inlined query vector for every row",
+  "scripts": {
+    "start": "node repro.mjs"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@libsql/client": "0.18.0",
+    "@mastra/core": "1.78.0",
+    "@mastra/libsql": "1.26.2"
+  }
+}
